@@ -1,10 +1,10 @@
 <?php
 /**
  * @copyright Copyright &copy; A.F.Schuurman, 2015
- * @package yii2-wizardwidget
+ * @package yii2-yii2-wizard-widget
  * @version 1.0.0
  */
-namespace drsdre\wizardwidget;
+namespace valiant\widgets;
 
 use yii;
 use yii\base\Widget;
@@ -15,6 +15,7 @@ use yii\helpers\Html;
  * Widget for wizard widget
  *
  * @author A.F.Schuurman <andre.schuurman+yii2-wizardwidget@gmail.com>
+ * @author ValianT <mr.igor.prokofev@gmail.com>
  * @since 1.0
  */
 class WizardWidget extends Widget {

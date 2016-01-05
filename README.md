@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist drsdre/yii2-wizardwidget "*"
+php composer.phar require --prefer-dist valiant/yii2-wizard-widget "*"
 ```
 
 or add
 
 ```
-"drsdre/yii2-wizardwidget": "*"
+"valiant/yii2-wizard-widget": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -93,5 +93,5 @@ $wizard_config = [
 ];
 ?>
 
-<?= \drsdre\wizardwidget\WizardWidget::widget($wizard_config); ?>
+<?= \valiant\widgets\WizardWidget::widget($wizard_config); ?>
 ```
